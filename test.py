@@ -2,7 +2,6 @@
 
 from languagedetector import LanguageDetector
 
-# Notre variable pour savoir quand arrêter la partie
 text_to_detect = str()
 ld = LanguageDetector()
 ld.addDict('fr', 'dict/dico_fr.txt')
