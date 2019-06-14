@@ -5,7 +5,7 @@ A basic language detector based on word dictionaries and letter frequency analys
 ## Features
 - [x] Detect by dictionnaries (based on @Alir3z4 [stop-words](https://github.com/Alir3z4/stop-words))
 - [ ] Detect by letter frequencies
-- [ ] gui tkinter
+- [x] gui tkinter
 
 ## Code sample
 > The quality of detection depends on the dictionary quality or the text length
@@ -27,3 +27,6 @@ ld.detect('El tiempo es bueno') # 'es'
 ld.detect('Il tempo è bello') # 'it'
 ld.detect('Это приятно') # 'ru'
 ```
+ ### gui
+
+ ![gui](flags/gui.png)

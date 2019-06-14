@@ -12,7 +12,7 @@ class LanguageDetector:
 
     def addDict(self, isolang, dicpath):
         try:
-            with open(dicpath, 'r') as dicfile:
+            with open(dicpath, 'r', encoding='utf-8') as dicfile:
                 self.dic[isolang] = dicfile.read().split('\n')
         except IOError:
             print("Unable to open file {}".format(dicpath)) 
